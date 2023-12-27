@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T14:28:48 IST" name="Default suite" finished-at="2023-12-27T14:28:53 IST" duration-ms="5028">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T14:28:48 IST" name="Default test" finished-at="2023-12-27T14:28:53 IST" duration-ms="5028">
+      <class name="APIProject.RestAssured.CurrencyApiTest">
+        <test-method signature="testCurrencyApi(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:APIProject.RestAssured.CurrencyApiTest@2a265ea9]" started-at="2023-12-27T14:28:48 IST" name="testCurrencyApi" data-provider="currencyTestData" finished-at="2023-12-27T14:28:51 IST" duration-ms="2977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Indian rupee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[₹]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Asia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrencyApi -->
+        <test-method signature="testCurrencyApi(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:APIProject.RestAssured.CurrencyApiTest@2a265ea9]" started-at="2023-12-27T14:28:51 IST" name="testCurrencyApi" data-provider="currencyTestData" finished-at="2023-12-27T14:28:52 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[United States dollar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Americas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrencyApi -->
+        <test-method signature="testCurrencyApi(java.lang.String,int,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:APIProject.RestAssured.CurrencyApiTest@2a265ea9]" started-at="2023-12-27T14:28:52 IST" name="testCurrencyApi" data-provider="currencyTestData" finished-at="2023-12-27T14:28:53 IST" duration-ms="810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BZR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Not Found]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrencyApi -->
+      </class> <!-- APIProject.RestAssured.CurrencyApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

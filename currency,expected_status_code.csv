@@ -1,0 +1,4 @@
+currency,expected_status_code,name,symbol,region
+INR,200,Indian rupee,₹,Asia
+USD,200,United States dollar,$,Americas
+BZR,404,Not Found,NA,NA
